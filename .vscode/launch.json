@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug C++ with MSYS GDB",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.exe", // Your exe
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}", // Runs from the file's directory
+            "environment": [],
+            "externalConsole": true, // Set false if you prefer integrated terminal
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys/mingw64/bin/gdb.exe", // Path to MSYS GDB
+            "preLaunchTask": "Build C++" // Builds before running
+        }
+    ]
+}

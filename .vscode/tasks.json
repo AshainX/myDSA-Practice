@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build C++ with MSYS2 Bash",
+            "type": "shell",
+            "command": "/c/msys/mingw64/bin/g++.exe",
+            "args": [
+                "-g",
+                "\"${file}\"",
+                "-o",
+                "\"${fileDirname}/${fileBasenameNoExtension}.exe\""
+            ],
+            "options": {
+                "cwd": "${fileDirname}",
+                "shell": {
+                    "executable": "C:\\msys\\usr\\bin\\bash.exe"  // or msys64 if that's your folder
+                }
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Build C++ code using MSYS2 Bash and g++"
+        }
+    ]
+}
