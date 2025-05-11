@@ -14,15 +14,37 @@
             "options": {
                 "cwd": "${fileDirname}",
                 "shell": {
-                    "executable": "C:\\msys\\usr\\bin\\bash.exe"  // or msys64 if that's your folder
+                    "executable": "C:\\msys\\usr\\bin\\bash.exe"
                 }
             },
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Build C++ code using MSYS2 Bash and g++"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe build active file",
+            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": ["$gcc"],
-            "detail": "Build C++ code using MSYS2 Bash and g++"
+            "detail": "compiler: C:\\msys64\\mingw64\\bin\\g++.exe"
         }
     ]
 }
