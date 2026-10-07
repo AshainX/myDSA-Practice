@@ -26,15 +26,15 @@
 | 01 | Sum of array elements | 0 | ✅ Clean (cpp + py) |
 | 02 | Find the maximum element | 0 | ✅ Clean (cpp + py) |
 | 03 | Count even numbers | 0 | ✅ Clean (cpp + py) |
-| 04 | Reverse the array | py: 2 | cpp ✅ Clean / py 🤝 Assisted → followup_q04 pending |
-| 05 | Search for a value | — | ⏳ |
+| 04 | Reverse the array | py: 2 | ✅ Clean (cpp + py, followup done) |
+| 05 | Search for a value | 0 (syntax help: missing brace) | ✅ Clean (cpp + py) |
 | 06 | Count occurrences of a value | — | ⏳ |
 | 07 | Average of array | — | ⏳ |
 | 08 | Count numbers greater than a given value | — | ⏳ |
 | 09 | Swap two elements | — | ⏳ |
 | 10 | Find the second largest | — | ⏳ |
 
-**Pending:** followup_q04_even_indexes.py (Python redo to convert q04-py 🤝 → ✅)
+**Pending:** none — all clear. Next: q06 onwards.
 
 ## Notes / patterns observed
 

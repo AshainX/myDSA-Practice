@@ -11,6 +11,8 @@
 
 def contains(a, target):
     # YOUR CODE HERE
+    if target in a:
+        return True
     return False  # replace this
 
 
