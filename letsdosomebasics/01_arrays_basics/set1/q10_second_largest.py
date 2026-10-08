@@ -16,7 +16,17 @@
 
 def second_largest(a):
     # YOUR CODE HERE
-    return 0  # replace this
+    large = float('-inf')
+    slarge = float('-inf')
+    for i in range(len(a)):
+        if a[i] > large:
+            slarge = large
+            large = a[i]
+        else:
+            if a[i] >= slarge:
+                slarge = a[i]
+
+    return slarge  # replace this
 
 
 if __name__ == "__main__":

@@ -13,7 +13,8 @@
 
 def average(a):
     # YOUR CODE HERE
-    return 0.0  # replace this
+    #var = sum(a)
+    return sum(a)/len(a)  # replace this
 
 
 if __name__ == "__main__":

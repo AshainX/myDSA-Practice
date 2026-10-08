@@ -20,7 +20,12 @@ using namespace std;
 
 double average(const vector<int>& a) {
     // YOUR CODE HERE
-    return 0.0; // replace this
+    double sum = 0;
+    for (int i=0; i<a.size(); i++){
+        sum+=a[i];
+    }
+
+    return sum/a.size(); // replace this
 }
 
 int main() {

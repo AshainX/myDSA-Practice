@@ -1,10 +1,12 @@
 # PROGRESS — your learning log
 
+## 🎉 SET 1 COMPLETE — ALL 10 CLEAN (both languages, 0 hints on q06–q10)
+
 ## Ladder (unlock order)
 
 | # | Module | Status |
 |---|--------|--------|
-| 01 | Arrays Basics | 🔓 UNLOCKED (Set 1 in progress) |
+| 01 | Arrays Basics | ✅ Set 1 DONE — Set 2 (harder) ready to build |
 | 02 | Strings | 🔒 locked |
 | 03 | Two Pointers | 🔒 locked |
 | 04 | Sliding Window / Prefix Sum | 🔒 locked |
@@ -28,13 +30,13 @@
 | 03 | Count even numbers | 0 | ✅ Clean (cpp + py) |
 | 04 | Reverse the array | py: 2 | ✅ Clean (cpp + py, followup done) |
 | 05 | Search for a value | 0 (syntax help: missing brace) | ✅ Clean (cpp + py) |
-| 06 | Count occurrences of a value | — | ⏳ |
-| 07 | Average of array | — | ⏳ |
-| 08 | Count numbers greater than a given value | — | ⏳ |
-| 09 | Swap two elements | — | ⏳ |
-| 10 | Find the second largest | — | ⏳ |
+| 06 | Count occurrences of a value | 0 | ✅ Clean (cpp + py) |
+| 07 | Average of array | 0 | ✅ Clean (cpp + py) |
+| 08 | Count numbers greater than a given value | 0 | ✅ Clean (cpp + py) |
+| 09 | Swap two elements | 0 | ✅ Clean (cpp + py) |
+| 10 | Find the second largest | 0 | ✅ Clean (cpp + py, stress-tested) |
 
-**Pending:** none — all clear. Next: q06 onwards.
+**Pending:** none — SET 1 COMPLETE. Next: Set 2 (harder arrays) or your call.
 
 ## Notes / patterns observed
 
@@ -48,4 +50,6 @@
 ## Session log
 - Set 1 created (10 problems × cpp/py), skeletons verified (all compile + run).
 - q01 ✅ both, q02 ✅ both, q03 ✅ both, q04 cpp ✅ / py 🤝 (2 hints: negative-step idea + off-by-one).
-- User taking a break for the night. Next: followup_q04, then q05 onwards.
+- q05 ✅ both (syntax fix: missing brace — free). followup_q04 ✅ done → q04 fully Clean.
+- q06 ✅ both.
+- Oct 9: q09 ✅ both (std::swap / temp-var swap), q10 ✅ both (two-variable tracking, passed all hidden edges incl. duplicates, negatives, INT_MAX). SET 1 COMPLETE — 10/10 Clean.

@@ -17,7 +17,14 @@ using namespace std;
 
 int countOccurrences(const vector<int>& a, int target) {
     // YOUR CODE HERE
-    return 0; // replace this
+    
+    int count = 0;
+    for (int i=0; i<a.size(); i++){
+        if(a[i] == target){
+            count++;
+        }
+    }
+    return count; // replace this
 }
 
 int main() {

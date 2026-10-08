@@ -21,6 +21,8 @@ using namespace std;
 vector<int> swapElements(vector<int>& a, int i, int j) {
     // YOUR CODE HERE
     // a is passed by reference — changing it changes the original.
+  
+    swap(a[i],a[j]);
     return a; // leave this
 }
 

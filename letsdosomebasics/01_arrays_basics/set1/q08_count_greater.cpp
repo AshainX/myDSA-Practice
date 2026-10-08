@@ -17,7 +17,13 @@ using namespace std;
 
 int countGreater(const vector<int>& a, int threshold) {
     // YOUR CODE HERE
-    return 0; // replace this
+    int count = 0;
+    for(int i = 0; i<a.size(); i++){
+        if (a[i]>threshold){
+            count++;
+        }
+    }
+    return count; // replace this
 }
 
 int main() {

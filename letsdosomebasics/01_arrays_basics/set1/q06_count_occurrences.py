@@ -11,7 +11,13 @@
 
 def count_occurrences(a, target):
     # YOUR CODE HERE
-    return 0  # replace this
+    count = 0
+    #for i in range(0,len(a),1):
+    for i in range(len(a)):
+        if a[i] == target:
+
+            count+=1
+    return count  # replace this
 
 
 if __name__ == "__main__":

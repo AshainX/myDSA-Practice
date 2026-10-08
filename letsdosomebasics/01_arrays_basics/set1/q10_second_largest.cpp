@@ -18,11 +18,32 @@
 
 #include <iostream>
 #include <vector>
+#include <climits>
 using namespace std;
 
 int secondLargest(const vector<int>& a) {
     // YOUR CODE HERE
-    return 0; // replace this
+    int large = INT_MIN;
+    int s_large = INT_MIN;
+    for (int i =0; i<a.size(); i++){
+        if(a[i] > large){
+            s_large = large;
+            large = a[i];
+        }
+        else{
+            if(a[i]>= s_large){
+                s_large =a[i];
+            }
+        }
+        // if(a[i] < large){
+        //     if(a[i] > s_large){
+        //         s_large = a[i];
+        //     }
+
+        // }
+    }
+
+    return s_large; // replace this
 }
 
 int main() {

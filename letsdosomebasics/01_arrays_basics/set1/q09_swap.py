@@ -13,6 +13,9 @@
 
 def swap_elements(a, i, j):
     # YOUR CODE HERE
+    temp = a[i]
+    a[i] = a[j]
+    a[j] = temp
     return a  # leave this
 
 

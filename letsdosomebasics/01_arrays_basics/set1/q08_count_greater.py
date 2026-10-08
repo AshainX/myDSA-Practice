@@ -11,7 +11,14 @@
 
 def count_greater(a, threshold):
     # YOUR CODE HERE
-    return 0  # replace this
+    count = 0
+    # for i in range(len(a)):
+        # if a[i]>threshold:
+            # count+=1
+    for x in a:
+        if x>threshold:
+            count+=1
+    return count  # replace this
 
 
 if __name__ == "__main__":
